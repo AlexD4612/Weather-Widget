@@ -1,0 +1,22 @@
+body {
+    /* vertical and horizontal alignment   */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main {
+  /* basic styling   */
+  outline: 4px solid black;
+  height: 400px;
+  width: 400px;
+ 
+  /* change if you like */
+  text-align: center;
+}
+
+data {
+  /* remove or change value to `inline-block`   */
+  display: block;
+}
+
